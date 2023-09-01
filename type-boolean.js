@@ -31,3 +31,12 @@ if(texto1 === texto2){
 
 }
 --------------------------------------------------------------------------------------------------------*/
+const texto1 = "a";
+const texto2 = "s";
+
+if(texto1 === texto2){
+    console.log("sua senha esta correta")
+}else{
+    console.log( `sua senha é ${texto2}`)
+
+}
