@@ -23,20 +23,19 @@ var area;*/
  
   console.log(area)*/
 
-  //variavel const não deixa mudar o valor dela
+//variavel const não deixa mudar o valor dela
 
-  const forma = "quadrado"
-  const altura= 5;
-  const comprimento= 7;
-  let area  ;
+const forma = "quadrado"
+const altura = 5;
+const comprimento = 7;
+let area;
 
-  if ( forma === "triangulo" ){
-  area = altura * comprimento
-}else{
+if (forma === "triangulo") {
+    area = altura * comprimento
+} else {
     area = (altura * comprimento) / 2
 
 }
 
 
-  console.log(area)
-
+console.log(area)
