@@ -2,15 +2,28 @@
 //console.log(x);
  //x = "OI";
 
- //1° declara 
+ 
+
+
+ //2° executa a função uma ou mais vezes
+
+
+//tres formas de escrever funções
+
+//1° declaração de função
                         //string
  function imprimeTexto (texto){
     console.log(texto);
  }
 
-
- //2° executa a função uma ou mais vezes
-
-imprimeTexto("oi")
+ imprimeTexto(soma())
 imprimeTexto("jamile")
+
+
+ //2° 
+  function soma(){
+return 2 + 2
+  }
+
+ //console.log( soma ())
 
