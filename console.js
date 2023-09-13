@@ -11,4 +11,5 @@ if(numero === 225){
     console.log ("parabens")
 } else{
 
-console.error("deu erro!")}
+console.error("deu erro!")
+console.error(new Error("deu erro"));}
