@@ -22,7 +22,7 @@ function nomeIdade(nome, idade){
 console.log(nomeIdade("juliana ", 40))
 
 //pasando função como parametro
-
+//pra passar um valor padrão pro argumento sempre coloque function multiplica (num1 = 3, num2= 3)
 function multiplica(num1, num2){
     return num1 * num2
 }
